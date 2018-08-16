@@ -1,0 +1,97 @@
+baseURL = "https://litlightning.org/"
+DefaultContentLanguage = "en"
+title = "LIT"
+theme = "elate"
+
+
+#This file prints out code blocks
+
+
+
+#Language
+
+
+   [languages]
+   
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    url = "/"
+    
+  [languages.fr]
+    
+    languageName = "Français"
+    weight = 2
+    url = "/fr"
+
+
+
+  [languages.cn]
+    
+    languageName = "中文"
+    weight = 3
+    url = "/cn"
+
+    
+
+  [languages.ko]
+    languageName = "한국의"
+    weight = 4
+    url = "/ko"
+
+
+    
+   
+[languages.es]
+    languageName = "Español"
+    weight = 5
+    url = "/es"
+
+    [languages.nl]
+    languageName = "Nederlands"
+    weight = 6
+    url = "/nl"
+
+
+  [languages.cz]
+    languageName = "Čeština"
+    weight = 7
+    url = "/cz"
+
+
+[languages.de]
+    languageName = "Deutsch"
+    weight = 8
+    url = "/de"
+
+  
+
+
+    [languages.it]
+    languageName = "Italiano"
+    weight = 9
+    url = "/it"
+
+ [languages.pl]
+    languageName = "Polski"
+    weight = 10
+    url = "/pl"
+
+    [languages.ru]
+    languageName = "Русский"
+    weight = 11
+    url = "/ru"
+
+
+    [languages.no]
+    languageName = "Nynorsk"
+    weight = 12
+    url = "/no"
+
+    
+
+    
+
+
+
+

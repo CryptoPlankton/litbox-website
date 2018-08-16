@@ -1,0 +1,197 @@
+a,
+nav a {
+    cursor: pointer
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat, PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, monospace;
+    font-style: normal
+}
+
+.githubCheck,
+.wrapper,
+body {
+    position: relative;
+    margin: 0px;
+}
+
+a {
+    font-weight: 400;
+    color: #333
+}
+
+body {
+    font-family: Montserrat, PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, monospace;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #1D1D1D;
+    background: #fff;
+    height: 100%;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+tbody {
+    font-family: Montserrat, PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, monospace
+}
+
+section {
+    margin-top: 32px
+}
+
+a:active,
+a:focus,
+a:hover {
+    outline: 0;
+    opacity: .6
+}
+
+p {
+    margin-bottom: 5em
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+    margin: 0 0 .25em
+}
+
+.wrapper h3 {
+    font-size: 123px;
+    text-transform: capitalize;
+    line-height: 1.4
+}
+
+.wrapper p {
+    font-size: 13px;
+    max-width: 573px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 1.65;
+    min-width: 354px;
+}
+
+@media screen and (max-width:768px) {
+    .wrapper p {
+        padding: 0 25px;
+        font-size: 13px
+    }
+}
+
+@media screen and (max-width:623px) {
+    .wrapper p {
+        width: 354px;
+    }
+}
+
+.wrapper {
+    padding-bottom: 67px
+}
+
+@media (max-width:616px) {
+    .wrapper {
+        padding-bottom: 43px
+    }
+}
+
+
+
+.wrapper .inner-wrapper {
+    max-width: 1015px;
+    margin: 0 auto
+}
+
+.bulletPoint {
+    display: flex;
+    max-width: 514px;
+    margin: 0 auto 4em;
+    font-size: 15px
+}
+
+.whatsPossible .bulletPoint {
+     display: block;
+    max-width: none;
+    margin: 0 auto 4em;
+    font-size: 13px
+}
+
+.whatsPossible .bulletPoint div {
+        margin-bottom: 10px;
+    opacity: 1;
+    color: #1d1d1d;
+    margin-top: 36px;
+}
+
+
+.whatsPossible .bulletPoint svg {
+   
+        height: auto;
+    margin-bottom: 36px;
+    margin-top: -28px;
+    width: 30%;
+}
+
+@media screen and (max-width:768px) {
+.whatsPossible .bulletPoint svg {
+    height: auto;
+    margin-bottom: 36px;
+    margin-top: -8px;
+    width: 100%;
+}
+}
+
+
+.topologylabel {
+    margin-top: 15px;
+    font-size: 13px
+}
+
+.spaceAround {
+    justify-content: space-around
+}
+
+.spaceBetween {
+    justify-content: space-between
+}
+
+.githubCheck {
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+    padding: 20px;
+    width: fit-content;
+    margin: 81px auto 0;
+    display: block;
+    text-decoration: none!important;
+    color: #333!important;
+    background: #1d1d1d;
+    color: white !important;
+}
+
+.githubCheck:hover {
+    text-decoration: none;
+    color: initial
+}
+
+
+section.separator-greenLine:before {
+    content: "";
+    width: 338px;
+    height: 1px;
+    background: #DADADA;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    display: block;
+}
