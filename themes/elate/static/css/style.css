@@ -73,8 +73,8 @@ h6 {
 }
 
 .wrapper p {
-    font-size: 13px;
-    max-width: 573px;
+        font-size: 13px;
+    max-width: 393px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -113,7 +113,7 @@ h6 {
 }
 
 .bulletPoint {
-    display: flex;
+    display: block;
     max-width: 514px;
     margin: 0 auto 4em;
     font-size: 15px
