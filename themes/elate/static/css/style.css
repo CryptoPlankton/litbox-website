@@ -109,11 +109,7 @@ h6 {
     margin: 0 auto
 }
 
-@media (max-width:616px) {
-    .bulletPoint {
-        max-width: 331px;
-    }
-}
+
 
 
 .bulletPoint {
@@ -121,6 +117,13 @@ h6 {
     max-width: 514px;
     margin: 0 auto 4em;
     font-size: 15px
+}
+
+
+@media (max-width:616px) {
+    .bulletPoint {
+        max-width: 331px;
+    }
 }
 
 .whatsPossible .bulletPoint {
