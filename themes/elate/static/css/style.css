@@ -24,6 +24,7 @@ body {
 a {
     font-weight: 400;
     color: #333;
+    text-decoration: none;
 }
 
 body {
@@ -79,7 +80,7 @@ h6 {
     margin-right: auto;
     text-align: center;
     line-height: 1.65;
-    min-width: 354px;
+    
 }
 
 @media screen and (max-width:768px) {
@@ -89,11 +90,7 @@ h6 {
     }
 }
 
-@media screen and (max-width:623px) {
-    .wrapper p {
-        width: 354px;
-    }
-}
+
 
 .wrapper {
     padding-bottom: 67px
@@ -112,9 +109,16 @@ h6 {
     margin: 0 auto
 }
 
+@media (max-width:616px) {
+    .bulletPoint {
+        max-width: 331px;
+    }
+}
+
+
 .bulletPoint {
     display: flex;
-    max-width: 331px;
+    max-width: 514px;
     margin: 0 auto 4em;
     font-size: 15px
 }
