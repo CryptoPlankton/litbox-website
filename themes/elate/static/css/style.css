@@ -75,7 +75,7 @@ h6 {
 
 .wrapper p {
         font-size: 13px;
-    max-width: 649px;
+    max-width: 513px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -201,4 +201,8 @@ section.separator-greenLine:before {
     margin: 0 auto;
     margin-bottom: 80px;
     display: block;
+}
+
+section p {
+    font-size: 13px;
 }

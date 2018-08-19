@@ -33,7 +33,7 @@
 
 
     [lit_description]
-    other = "Litbox is an open-source self managed crypto solution that manages your lightning and on-chain transactions through your mobile phone or PC/Mac. All your coins are managed under an a single address, similar to a phone number concept and are stored locally on the box (pi)."
+    other = "Litbox is open source software that runs on a raspberry pi that sits your house. All your coins are managed under an a single address, similar to a phone number concept and are stored locally on the box (pi). Your devices connect to your litbox which manages your lightning and on-chain transactions."
 
 
 
